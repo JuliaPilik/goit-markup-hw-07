@@ -1,0 +1,35 @@
+.hero {
+    margin: 0 auto;
+    text-align: center;
+    padding: 200px 0;
+    min-width: 1200px;
+    height: 600px;
+    max-width: 1600px;
+    background-color: var(--bg-hero);
+    background-image: linear-gradient(var(--gradient-hero), var(--gradient-hero)), url(../images/hero.jpg);
+
+    &__title {
+            color: var(--white-color);
+            font-weight: 900;
+            font-size: 44px;
+            line-height: 1.3636;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+    
+            width: 696px;
+            margin-top: 0;
+            margin-bottom: 30px;
+            margin-right: auto;
+            margin-left: auto;
+    
+    }
+
+    &__button {
+            margin: 0 auto;
+    }
+}
+
+
+
+
+
